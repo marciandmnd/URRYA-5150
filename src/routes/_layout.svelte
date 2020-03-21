@@ -1,5 +1,6 @@
 <script>
 	import Nav from '../components/Nav.svelte';
+	import GA from '../components/GA.svelte';
 
 	export let segment;
 </script>
@@ -14,7 +15,7 @@
 		box-sizing: border-box;
 	}
 </style>
-
+<GA/>
 <Nav {segment}/>
 
 <main>

@@ -24,8 +24,7 @@
 		current = track;
 
 		if(!player.autoplay) player.autoplay = true;
-		track.strm !== 0 ? player.pause() : player.play();
-		if(track.strm !== 0) { player.currentSrc = "" }		
+		player.play();
 	}
 
 	onMount(() => {
@@ -98,14 +97,9 @@
 	<AudioPlayer src={current.objectUrl} title={current.title}/>
 	<ol>
 	{#each project.tracks as track}
-		{#if track.strm === 0}
 			<li class="track pointer" on:click={playTrack(track)}>{track.title}&nbsp; 
-				{#if track.strm === 0}<span class='play-btn'>▶️</span>
-				{/if}
+				<span class='play-btn'>▶️</span>
 			</li>
-		{:else}
-		<li class="track">{track.title}</li>
-		{/if}
 	{/each}
 	</ol>
 

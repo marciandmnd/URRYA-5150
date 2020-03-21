@@ -16,45 +16,41 @@ const projects = [
 		tracks: [
 			{
 				title: "5150d",
-				dl: 1,
-				price: 2,
-				strm: 0,
 				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/1)+Intro.mp3"
 			},
 			{
 				title: "Hood Thangz",
-				dl: 1,
-				price: 2,
-				strm: 0,
 				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/2)+Hood+Thangz.mp3"
 			},
 			{
 				title: "Involuntary Mental Patient",
-				dl: 1,
-				price: 2,
-				strm: 0,
 				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/3)+Involuntary+Mental+Patient.mp3"
 			},
-			{title: "Gift of Gutter Rap",
-			dl: 1,
-				price: 2, strm: 0.5},
-			{title: "Madman's Dream",
-			dl: 1,
-				price: 2, strm: 0.5},
-			{title: "Death to the Motherboard",
-			dl: 1,
-				price: 2, strm: 0.5},
-			{title: "One Way Up",
-			dl: 1,
-				price: 2, strm: 0.5},
-			{title: "Rough Test",
-			dl: 1,
-				price: 2, strm: 0.5},
-			{title: "Bang Bang",
-			dl: 1,
-				price: 2, strm: 0.5}
-		],
-		price: 5.15
+			{
+				title: "Gift of Gutter Rap",
+				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/4)+Gift+of+Gutter+Rap.mp3"
+			},
+			{
+				title: "Madman's Dream",
+				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/5)+Madman's+Dream.mp3"
+			},
+			{
+				title: "Death to the Motherboard",
+				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/6)+Death+to+the+Motherboard.mp3"
+			},
+			{
+				title: "One Way Up",
+				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/7)+One+Way+Up.mp3"
+			},
+			{
+				title: "Rough Test",
+				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/8)+Rough+Test.mp3"
+			},
+			{
+				title: "Bang Bang",
+				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/9)+Bang+Bang.mp3"
+			}
+		]
 	},
 
 	{
