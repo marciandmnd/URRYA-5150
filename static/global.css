@@ -15,10 +15,20 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 2em;
 }
+.orange { color: orange; }
 
 a {
-	color: inherit;
+	font-size: 1.5em;
+	color: orange;
+	text-decoration: none;
 }
+
+a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+ul { padding: 1em; }
 
 code {
 	font-family: menlo, inconsolata, monospace;
@@ -34,3 +44,5 @@ code {
 		font-size: 16px;
 	}
 }
+
+.shadow { box-shadow: 0 4px 8px rgba(0,0,0,.2) };

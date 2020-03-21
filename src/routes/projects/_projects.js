@@ -9,8 +9,9 @@
 
 const projects = [
 	{
-		title: "5150'd",
+		title: "5150'D",
 		slug: '5150d',
+		date: '1.2010',
 		html: `
 		`,
 		tracks: [
@@ -54,89 +55,71 @@ const projects = [
 	},
 
 	{
-		title: "5250'd: Still Dangerous",
+		title: "5250'D: STILL DANGEROUS",
 		slug: 'still-dangerous',
+		date: '7.2011',
 		html:
 		`
-			<h2>Still Dangerous</h2>
 		`,
 		tracks: [
-			{title: "Ride Wit Me", dl: 1, price: 2, strm: 0,
-				},
-			{title: "5250d", dl: 1, price: 2, strm: 0,
-				objectUrl: ""},
-			{title: "Constantinople", dl: 1, price: 2, strm: 0.5,
-				objectUrl: ""},
-			{title: "48 Bars", dl: 1, price: 2, strm: 0.5,
-				objectUrl: ""},
-			{title: "850 Pistols in Frisco", dl: 1, price: 2, strm: 0.5,
-				objectUrl: ""},
-			{title: "808 Eyyday", dl: 1, price: 2, strm: 0.5,
-				objectUrl: ""},
-			{title: "Death on Van Ness", dl: 1, price: 2, strm: 0.5,
-				objectUrl: ""},
-			{title: "Ninja Code", dl: 1, price: 2, strm: 0.5,
-				objectUrl: ""},
-			{title: "Wolfmen Howlin", dl: 1, price: 2, strm: 0.5,
-				objectUrl: ""},
-			{title: "Pl4ce 1 5tay", dl: 1, price: 2, strm: 0.5,
-				objectUrl: ""},
-			{title: "Rubberband Man", dl: 1, price: 2, strm: 0.5,
-				objectUrl: ""},
-			{title: "Put Rap to Sleep", dl: 1, price: 2, strm: 0,
-				objectUrl: ""},
-			{title: "Been Insane", dl: 1, price: 2, strm: 0.5,
-				objectUrl: ""},
-			{title: "Get Ghost", dl: 1, price: 2, strm: 0, objectUrl: ""}
-		],
-		price: 5.25
+			{title: "Ride Wit Me"},
+			{title: "5250d"},
+			{title: "Constantinople"},
+			{title: "48 Bars"},
+			{title: "850 Pistols in Frisco"},
+			{title: "808 Eyyday"},
+			{title: "Death on Van Ness"},
+			{title: "Ninja Code"},
+			{title: "Wolfmen Howlin"},
+			{title: "Pl4ce 1 5tay"},
+			{title: "Rubberband Man"},
+			{title: "Put Rap to Sleep"},
+			{title: "Been Insane"},
+			{ title: "Get Ghost"}
+		]
 	},
 
 	{
-		title: 'The Conservatorship: Gravely Disabled (hella underground)',
+		title: 'GRAVELY DISABLED',
 		slug: 'gravely-disabled',
+		date: '9.13',
 		html: `
-			<h2>Unable to Provide for Basic Needs</h2>
 		`,
 		tracks: [
-			{title: "Gravely Disabled", dl: 1, price: 2, strm: 0.5},
-			{title: "Microphone Messiahs", dl: 1, price: 2, strm: 0.5},
-			{title: "Git Wit Me", dl: 1, price: 2, strm: 0.5},
-			{title: "Do this fo'", dl: 1, price: 2, strm: 0.5},
-			{title: "Married to the Game", dl: 1, price: 2, strm: 0.5},
-			{title: "A Muhfuggah Like Me", dl: 1, price: 2, strm: 0.5},
-			{title: "Out Here", dl: 1, price: 2, strm: 0.5},
-			{title: "Laced Wit Hella Bass", dl: 1, price: 2, strm: 0.5},
-			{title: "Dem Bay Boys", dl: 1, price: 2, strm: 0.5},
-			{title: "Fuck Wut Ya Heard", dl: 1, price: 2, strm: 0.5},
-			{title: "Rubberband Man", dl: 1, price: 2, strm: 0.5},
-			{title: "Run the Game Tight", dl: 1, price: 2, strm: 0.5},
-			{title: "Skateboard Thugs", dl: 1, price: 2, strm: 0.5},
-			{title: "Whiteboy so Hood", dl: 1, price: 2, strm: 0.5}
-		],
-		price: 7
+			{title: "Gravely Disabled"},
+			{title: "Microphone Messiahs"},
+			{title: "Git Wit Me"},
+			{title: "Do this fo'"},
+			{title: "Married to the Game"},
+			{title: "A Muhfuggah Like Me"},
+			{title: "Out Here"},
+			{title: "Laced Wit Hella Bass"},
+			{title: "Dem Bay Boys"},
+			{title: "Fuck Wut Ya Heard"},
+			{title: "Rubberband Man"},
+			{title: "Run the Game Tight"},
+			{title: "Skateboard Thugs"},
+			{title: "Whiteboy so Hood"}
+		]
 	},
-
 	{
-		title: 'Quittin Aint Easy',
+		title: 'QUITTIN AINT EASY',
 		slug: 'quittin-aint-easy',
 		html: `
-			<h2>This is What Happens</h2>
 		`,
 		tracks: [
-			{title: "Real Treal", dl: 1, price: 2, strm: 0},
-			{title: "High Muhfuggah", dl: 1, price: 2, strm: 0.5},
-			{title: "Street Disease", producer: "Simon Says", dl: 1, price: 2, strm: 0.5},
-			{title: "We Can Talk Figures'", dl: 1, price: 2, strm: 0},
-			{title: "Higher Than a Spaceship", dl: 1, price: 2, strm: 0.5},
-			{title: "Necklace", dl: 1, price: 2, strm: 0},
-			{title: "Aint a Game", dl: 1, price: 2, strm: 0.5},
-			{title: "Only One King", dl: 1, price: 2, strm: 0.5},
-			{title: "Still Keep it Lit", dl: 1, price: 2, strm: 0.5},
-			{title: "Hunid Fiddy Kay", dl: 1, price: 2, strm: 0.5},
-			{title: "Aint Witda Mayhem", dl: 1, price: 2, strm: 0.5}
-		],
-		price: 15
+			{title: "Real Treal"},
+			{title: "High Muhfuggah"},
+			{title: "Street Disease", producer: "Simon Says"},
+			{title: "We Can Talk Figures'"},
+			{title: "Higher Than a Spaceship"},
+			{title: "Necklace"},
+			{title: "Aint a Game"},
+			{title: "Only One King"},
+			{title: "Still Keep it Lit"},
+			{title: "Hunid Fiddy Kay"},
+			{title: "Aint Witda Mayhem"}
+		]
 	}
 ];
 

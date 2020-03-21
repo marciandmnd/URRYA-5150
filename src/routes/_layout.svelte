@@ -11,7 +11,8 @@
 		max-width: 56em;
 		background-color: white;
 		padding: 2em;
-		margin: 0 auto;
+		margin: 5em auto;
+		border-radius: 8px;
 		box-sizing: border-box;
 	}
 </style>

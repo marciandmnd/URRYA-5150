@@ -20,7 +20,6 @@
 	let player, current = {};
 
 	const	playTrack = async (track) => {
-
 		current = track;
 
 		if(!player.autoplay) player.autoplay = true;
@@ -83,14 +82,23 @@
 	.pointer {
 		cursor: pointer;
 	}
+
+	.content {
+		padding: 1em 0em;
+	}
 </style>
 
 <svelte:head>
 	<title>{project.title}</title>
 </svelte:head>
 <a href='/projects'>&lt;---</a>
-<h1>{project.title}</h1>
-<hr/>
+
+<div style="text-align: center;">
+	<h1 style="font-size: 3em;">{project.title}</h1>
+	{#if project.slug == "5150d"}
+		<img style='max-width: 100%;' src="{project.slug}.jpg"/>
+	{/if}
+</div>
 
 <div class='content'>
 	{@html project.html}

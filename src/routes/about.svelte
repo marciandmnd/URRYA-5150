@@ -1,8 +1,9 @@
 <svelte:head>
-	<title>About</title>
+	<title>BOUT</title>
 </svelte:head>
-<a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WIC&sectionNum=5150" target="_blank">
-CALIFORNIA WELFARE AND INSTITUTIONS CODE 5150
-</a>
 
-<p>URRYA-5150 is highly confidential</p>
+<h1 style="font-size: 4em;"><strong>WHOOP WHOOP</strong></h1>
+<a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WIC&sectionNum=5150" target="_blank">
+<h2>CALIFORNIA WELFARE AND INSTITUTIONS CODE 5150</h2>
+</a>
+<h1>URRYA-5150 IS TOP SECRET</h1>
