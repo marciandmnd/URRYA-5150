@@ -11,7 +11,8 @@ const projects = [
 	{
 		title: "5150'D",
 		slug: '5150d',
-		date: '1.2010',
+		cover: '5150d.jpg',
+		date: '1. 2010',
 		html: `
 		`,
 		tracks: [
@@ -57,68 +58,175 @@ const projects = [
 	{
 		title: "5250'D: STILL DANGEROUS",
 		slug: 'still-dangerous',
-		date: '7.2011',
+		cover: 'still-dangerous.jpg',
+
+		date: '7. 2011',
 		html:
 		`
 		`,
 		tracks: [
-			{title: "Ride Wit Me"},
-			{title: "5250d"},
-			{title: "Constantinople"},
-			{title: "48 Bars"},
-			{title: "850 Pistols in Frisco"},
-			{title: "808 Eyyday"},
-			{title: "Death on Van Ness"},
-			{title: "Ninja Code"},
-			{title: "Wolfmen Howlin"},
-			{title: "Pl4ce 1 5tay"},
-			{title: "Rubberband Man"},
-			{title: "Put Rap to Sleep"},
-			{title: "Been Insane"},
-			{ title: "Get Ghost"}
+			{
+				title: "Ride Wit Me",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/1)+rideWitMe.mp3"	
+			},
+			{
+				title: "5250d",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/2)+5250d.mp3"	
+			},
+			{
+				title: "Constantinople",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/3)+Constantinople.mp3"	
+			},
+			{
+				title: "48 Bars",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/4)+48+Bars.mp3"	
+			},
+			{
+				title: "850 Pistols in Frisco",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/5)+850PistolsInFrisco.mp3"	
+			},
+			{
+				title: "808 Eyyday",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/6)+808+Eyyday.mp3"	
+			},
+			{
+				title: "Death on Van Ness",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/7)+Death+on+Van+Ness.mp3"	
+			},
+			{
+				title: "Ninja Code",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/8)+Ninja+Code.mp3"	
+			},
+			{
+				title: "Wolfmen Howlin",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/9)+Wolfmen+Howlin.mp3"	
+			},
+			{
+				title: "Pl4ce 1 5tay",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/10)+Pl4ce+1+5tay.mp3"	
+			},
+			{
+				title: "Rubberband Man",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/11)+Rubberband+Man.mp3"	
+			},
+			{
+				title: "Put Rap to Sleep",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/12)+Put+Rap+to+Sleep.mp3"	
+			},
+			{
+				title: "Been Insane",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/13)+Been+Insane.mp3"	
+			},
+			{
+				 title: "Get Ghost",
+				objectUrl: "https://s3.amazonaws.com/5250d.mp3s/14)+Get+Ghost.mp3"	
+			}
 		]
 	},
 
 	{
 		title: 'GRAVELY DISABLED',
 		slug: 'gravely-disabled',
-		date: '9.13',
+		date: '9. 2013',
+		cover: 'gravely-disabled.jpg',
 		html: `
 		`,
 		tracks: [
-			{title: "Gravely Disabled"},
-			{title: "Microphone Messiahs"},
-			{title: "Git Wit Me"},
-			{title: "Do this fo'"},
-			{title: "Married to the Game"},
-			{title: "A Muhfuggah Like Me"},
-			{title: "Out Here"},
-			{title: "Laced Wit Hella Bass"},
-			{title: "Dem Bay Boys"},
-			{title: "Fuck Wut Ya Heard"},
-			{title: "Rubberband Man"},
-			{title: "Run the Game Tight"},
-			{title: "Skateboard Thugs"},
-			{title: "Whiteboy so Hood"}
+			{
+				title: "Gravely Disabled",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/1)+Gravely+Disabled.mp3"
+			},
+			{
+				title: "Microphone Messiahs",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/2)+microphone-messiahs-ft-blackcloud-mc.mp3"
+			},
+			{
+				title: "Git Wit Me",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/3)+git-wit-me.mp3"
+			},
+			{
+				title: "Do this fo'",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/4)+do-this-fo.mp3"
+			},
+			{
+				title: "Married to the Game",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/5)+Married+to+The+Game.mp3"
+			},
+			{
+				title: "A Muhfuggah Like Me",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/6)+a-muhfugga-like-me.mp3"
+			},
+			{
+				title: "Out Here",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/7)+Out+Here.mp3"
+			},
+			{
+				title: "Laced Wit Hella Bass",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/8)+Laced+wit+Hella+Bass.mp3"
+			},
+			{
+				title: "Dem Bay Boys",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/9)+dem-bay-boyz-ft.+society-cola.mp3"
+			},
+			{
+				title: "Fuck Wut Ya Heard",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/10)+fuck-wutya-heard-ft-bricks-build.mp3"
+			},
+			{
+				title: "Run the Game Tight",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/11)+Run+the+Game+Tight.mp3"
+			},
+			{
+				title: "Skateboard Thugs",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/12)+Skateboard+Thugs.mp3"
+			},
+			{
+				title: "Whiteboy so Hood",
+				objectUrl: "https://s3.amazonaws.com/gravely-disabled.mp3s/13)+whiteboy-so-hood.mp3"
+			}
 		]
 	},
 	{
 		title: 'QUITTIN AINT EASY',
 		slug: 'quittin-aint-easy',
+		date: '2. 2019',
+		cover: 'gravely-disabled.jpg',
 		html: `
 		`,
 		tracks: [
-			{title: "Real Treal"},
-			{title: "High Muhfuggah"},
-			{title: "Street Disease", producer: "Simon Says"},
-			{title: "We Can Talk Figures'"},
-			{title: "Higher Than a Spaceship"},
-			{title: "Necklace"},
-			{title: "Aint a Game"},
-			{title: "Only One King"},
-			{title: "Still Keep it Lit"},
-			{title: "Hunid Fiddy Kay"},
-			{title: "Aint Witda Mayhem"}
+			{
+				title: "Real Treal",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/1)+real-treal.mp3"},
+			{
+				title: "High Muhfuggah",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/2)+high-muhfuggah.mp3"},
+			{
+				title: "Street Disease", producer: "Simon Says",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/3)+street-disease.mp3"},
+			{
+				title: "We Can Talk Figures'",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/4)+we-can-talk-figures.mp3"},
+			{
+				title: "Higher Than a Spaceship",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/5)+higher-than-a-spaceship.mp3"},
+			{
+				title: "Necklace",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/6)+necklace.mp3"},
+			{
+				title: "Aint a Game",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/7)+aint-a-game.mp3"},
+			{
+				title: "Only One King",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/9)+only-one-king.mp3"},
+			{
+				title: "Still Keep it Lit",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/9)+still-keep-it-lit.mp3"},
+			{
+				title: "Hunid Fiddy Kay",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/10)+hunid-fiddy-kay.mp3"},
+			{
+				title: "Aint Witda Mayhem",
+				objectUrl: "https://s3.amazonaws.com/quittin-aint-easy.mp3s/11)+aint-witda-mayhem.mp3"}
 		]
 	}
 ];

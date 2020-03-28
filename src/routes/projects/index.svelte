@@ -34,7 +34,7 @@
 
 <div class="projects">
 <h1>URRY YURI</h1>
-<a><h2 style='color: orange; padding-left: 8px;'>GODEEM</h2></a>
+<h2 style='color: orange; padding-left: 8px;'>GOT'EEM</h2>
 </div>
 
 <div class="projects">
@@ -45,9 +45,11 @@
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
+		<h2>
 		<a rel='prefetch' href='projects/{project.slug}'>
-			<h2>{project.title}</h2>
+			{project.title}
 		</a>
+		</h2>
 	{/each}
 </ul>
 </div>

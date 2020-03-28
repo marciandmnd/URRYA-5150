@@ -6,6 +6,8 @@
 		const data = await res.json();
 
 		if (res.status === 200) {
+			console.log('!!!!')
+			console.log(data)
 			return { project: data };
 		} else {
 			this.error(res.status, data.message);
@@ -95,9 +97,8 @@
 
 <div style="text-align: center;">
 	<h1 style="font-size: 3em;">{project.title}</h1>
-	{#if project.slug == "5150d"}
-		<img style='max-width: 100%;' src="{project.slug}.jpg"/>
-	{/if}
+	<img style='width: 256px; max-width: 100%;' alt="{project.title}" src="{project.slug}.jpg"/>
+	<p>Release Date: {project.date}</p>
 </div>
 
 <div class='content'>
