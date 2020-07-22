@@ -50,7 +50,7 @@
 
 <nav class="shadow" style="background: white;">
 	<ul>
-		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>URRY</a></li>
+		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>AREA-5150</a></li>
 		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>BOUT</a></li>
 		<li><a aria-current='{segment === "projects" ? "page" : undefined}' href='projects'>JECTS</a></li>
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches

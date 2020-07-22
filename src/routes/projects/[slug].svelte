@@ -6,8 +6,6 @@
 		const data = await res.json();
 
 		if (res.status === 200) {
-			console.log('!!!!')
-			console.log(data)
 			return { project: data };
 		} else {
 			this.error(res.status, data.message);

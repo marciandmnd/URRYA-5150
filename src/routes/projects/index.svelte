@@ -17,11 +17,23 @@
 	}
 
 	.projects {
-		border: 1px black solid;
-		padding: 8px;
-		margin: 1em;
-		border-radius: 8px;
-		box-shadow: 4px 8px 8px rgba(0,0,255,.2);
+		margin: 0px auto;
+		background-color:#fff;
+		display:grid;
+		grid-template-columns: 250px 250px;
+		grid-row: auto auto;
+		grid-column-gap: 20px;
+		grid-row-gap: 20px;
+		width: 500px;
+	}
+
+	.project {
+		background-color:#333;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:sans-serif;
 	}
 </style>
 
@@ -29,28 +41,20 @@
 	<title>Projects</title>
 </svelte:head>
 
-<h1>JECTS</h1>
-<hr/>
-
 <div class="projects">
-<h1>URRY YURI</h1>
-<h2 style='color: orange; padding-left: 8px;'>GOT'EEM</h2>
-</div>
-
-<div class="projects">
-<h1>NOTORIOUS BORIS</h1>
-<ul>
 	{#each projects as project}
 		<!-- we're using the non-standard `rel=prefetch` attribute to
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
-		<h2>
-		<a rel='prefetch' href='projects/{project.slug}'>
-			{project.title}
-		</a>
-		</h2>
+		<div class="project">
+			<!-- <a rel='prefetch' href='projects/{project.slug}'>
+				{project.title}
+			</a> -->
+			<a rel='prefetch' href='projects/{project.slug}'>
+				<img style="width: 250px; max-width: 100%" alt="{project.title}" src="{project.cover}" />
+			</a>
+		</div>
 	{/each}
-</ul>
 </div>
 

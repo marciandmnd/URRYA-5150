@@ -29,8 +29,56 @@
 
 	gtag('config', 'UA-97008523-6');
 	</script>
+	<style>
+		.btn {
+			border: none;
+			color: white;
+			padding: 16px 24px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		.btn-success {
+			background-color: #4CAF50; /* Green */
+		}
+
+		.btn-fail {
+			background-color: #f44336;
+		}
+
+		.overlay {
+			justify-content: space-around;
+			background-color: white;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			z-index: 1;
+			display: flex;
+			flex-direction: column;
+			justify-items: center;
+			align-items: center;
+			text-align: center;
+			padding: 16px;
+			border: 32px solid black;
+		}
+	</style>
 </head>
-<body style="background-color: #eee">
+<body onload="onLoad()" style="background-color: #eee">
+		<div class="overlay"style="">
+			<h1 style="font-size: 8vw"><span style="font-weight: bold; color: red;">WARNING</span>
+				<br/>NO TRESPASSING
+				<br/><span style="font-weight: bold">AREA-5150</span>
+			</h1>
+			<div>
+				<button class="btn btn-success" id="enter">ENTER</button>
+				<button class="btn btn-fail" id="exit">EXIT</button>
+			</div>
+		</div>
 	<!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
 	<div id='sapper'>%sapper.html%</div>
@@ -40,4 +88,12 @@
 	     initialise the router -->
 	%sapper.scripts%
 </body>
+<script type="text/javascript">
+	function onLoad() {
+		const enterBtn = document.getElementById('enter');
+		const exitBtn = document.getElementById('exit');
+		enterBtn.addEventListener('click', () => document.querySelector('.overlay').remove());
+		exitBtn.addEventListener('click', function(){ window.location.replace('https://iamawesome.com');});
+	}
+</script>
 </html>

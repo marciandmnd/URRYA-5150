@@ -18,39 +18,39 @@ const projects = [
 		tracks: [
 			{
 				title: "5150d",
-				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/1)+Intro.mp3"
+				objectUrl: "https://d3r2qtd8ejoazw.cloudfront.net/5150d.mp3s/1)+Intro.mp3"
 			},
 			{
 				title: "Hood Thangz",
-				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/2)+Hood+Thangz.mp3"
+				objectUrl: "https://d3r2qtd8ejoazw.cloudfront.net/5150d.mp3s/2)+Hood+Thangz.mp3"
 			},
 			{
 				title: "Involuntary Mental Patient",
-				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/3)+Involuntary+Mental+Patient.mp3"
+				objectUrl: "https://d3r2qtd8ejoazw.cloudfront.net/5150d.mp3s/3)+Involuntary+Mental+Patient.mp3"
 			},
 			{
 				title: "Gift of Gutter Rap",
-				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/4)+Gift+of+Gutter+Rap.mp3"
+				objectUrl: "https://d3r2qtd8ejoazw.cloudfront.net/5150d.mp3s/4)+Gift+of+Gutter+Rap.mp3"
 			},
 			{
 				title: "Madman's Dream",
-				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/5)+Madman's+Dream.mp3"
+				objectUrl: "https://d3r2qtd8ejoazw.cloudfront.net/5150d.mp3s/5)+Madman's+Dream.mp3"
 			},
 			{
 				title: "Death to the Motherboard",
-				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/6)+Death+to+the+Motherboard.mp3"
+				objectUrl: "https://d3r2qtd8ejoazw.cloudfront.net/5150d.mp3s/6)+Death+to+the+Motherboard.mp3"
 			},
 			{
 				title: "One Way Up",
-				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/7)+One+Way+Up.mp3"
+				objectUrl: "https://d3r2qtd8ejoazw.cloudfront.net/5150d.mp3s/7)+One+Way+Up.mp3"
 			},
 			{
 				title: "Rough Test",
-				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/8)+Rough+Test.mp3"
+				objectUrl: "https://d3r2qtd8ejoazw.cloudfront.net/5150d.mp3s/8)+Rough+Test.mp3"
 			},
 			{
 				title: "Bang Bang",
-				objectUrl: "https://s3.us-east-2.amazonaws.com/5150d.mp3s/9)+Bang+Bang.mp3"
+				objectUrl: "https://d3r2qtd8ejoazw.cloudfront.net/5150d.mp3s/9)+Bang+Bang.mp3"
 			}
 		]
 	},
@@ -190,7 +190,7 @@ const projects = [
 		title: 'QUITTIN AINT EASY',
 		slug: 'quittin-aint-easy',
 		date: '2. 2019',
-		cover: 'gravely-disabled.jpg',
+		cover: 'quittin-aint-easy.jpg',
 		html: `
 		`,
 		tracks: [

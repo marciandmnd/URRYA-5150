@@ -4,7 +4,8 @@ const contents = JSON.stringify(projects.map(project => {
 	return {
 		title: project.title,
 		slug: project.slug,
-		date: project.date
+		date: project.date,
+		cover: project.cover
 	};
 }));
 

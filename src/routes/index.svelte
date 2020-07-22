@@ -39,13 +39,14 @@
 	<title>Urrya 5150</title>
 </svelte:head>
 
-<div style="text-align: center; border: 8px solid black; border-radius: 1em;"> 
+<!-- <div style="text-align: center; border: 8px solid black; border-radius: 1em;"> 
 	<div style='background-color: red; color: white; border-radius: 8px 8px 0px 0px;'>
 		<h1>WARNING</h1>
 		<h2>NO TRESPASSING</h2>
 	</div>
 
-	<h1>URRYA-5150</h1>
+	<div style='padding:8px'>
+	<h1>AREA-5150</h1>
 	<h2 class="red">RESEARCH FACILITY #2(A)</h2>
 	<h3>PHOTOGRAPHY IS PROHIBITED</h3>
 	<h3>GOVERNMENT INSTALLATION</h3>
@@ -55,7 +56,9 @@
 	</a>
 <h3>While on this installation all personnel and the property under their control are subject to search.</h3>
 <h1>USE OF DEADLY FORCE AUTHORIZED</h1>
-</div>
+</div> -->
+
+<div><h1>AREA-5150</h1></div>
 
 
 
