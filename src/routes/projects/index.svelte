@@ -52,7 +52,7 @@
 				{project.title}
 			</a> -->
 			<a rel='prefetch' href='projects/{project.slug}'>
-				<img style="width: 250px; max-width: 100%" alt="{project.title}" src="{project.cover}" />
+				<img style="width: 250px; max-width: 100%" alt="{project.title}" src="{project.slug}.jpg" />
 			</a>
 		</div>
 	{/each}
